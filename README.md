@@ -21,19 +21,19 @@ The application will be downloaded to your local device and displayed in your de
 
 ## Appearance
 
-<p align="center"><img width="100%" src="https://raw.githubusercontent.com/16EAGLE/AUX_data/master/data/moveVis_preview1.png"></p>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/16EAGLE/AUX_data/master/data/moveVis_GUI_preview1.png"></p>
 <p align="center"><sub>Figure 1: Screenshot of the general settings tab (left) and the animation preview window (right)</sub></p>
 <br>
 
-<p align="center"><img width="100%" src="https://raw.githubusercontent.com/16EAGLE/AUX_data/master/data/moveVis_preview2.png"></p>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/16EAGLE/AUX_data/master/data/moveVis_GUI_preview2.png"></p>
 <p align="center"><sub>Figure 2: Screenshot of the advanced settings tab (left) and the animation preview window (right)</sub></p>
 <br>
 
-<p align="center"><img width="100%" src="https://raw.githubusercontent.com/16EAGLE/AUX_data/master/data/moveVis_processing.png"></p>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/16EAGLE/AUX_data/master/data/moveVis_GUI_processing.png"></p>
 <p align="center"><sub>Figure 3: Screenshot of the advanced settings tab (left) and the animation processing window (right)</sub></p>
 <br>
 
-<p align="center"><img width="100%" src="https://raw.githubusercontent.com/16EAGLE/AUX_data/master/data/moveVis_download.png"></p>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/16EAGLE/AUX_data/master/data/moveVis_GUI_download.png"></p>
 <p align="center"><sub>Figure 4: Screenshot of the general settings tab (left) and the animation processing window, ready for download (right)</sub></p>
 <br>
 
