@@ -1,7 +1,13 @@
 ## initialize session
 name.spc <- c("shiny", "shinyjs", "shinydashboard", "shinycssloaders", "moveVis", "move", "raster",
               "gridGraphics", "animation")
-lapply(name.spc, function(x){library(x, character.only = TRUE)})
+lapply(name.spc, function(x){
+  sc <- try(library(x, character.only = TRUE))
+  if(class(sc)[1] == "try-error"){
+    install.packages(x)
+    library(x, character.only = TRUE)
+  }
+})
 server.dir <- getwd()
 
 #Get the sample movement data from the moveVis package
