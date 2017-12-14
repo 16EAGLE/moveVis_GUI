@@ -13,10 +13,10 @@ The published version is meant to be used only for demonstrational purposes. It 
 An operational use of this demo version of moveVis GUI is not recommended and not possible. To install the current version for playing around with the concept, use the `shiny` package:
 
 ```s
-shiny::runGitHub("16eagle/moveVis_GUI")
+shiny::runGitHub("16eagle/moveVis_GUI", launch.browser = TRUE)
 ```
 
-The application will be downloaded to your local device and displayed in your default web browser.
+The application will be downloaded to your local device and displayed in your default web browser. If you run the app for the first time on your device, the required dependencies will be installed before the web application is launched.
 
 
 ## Appearance
