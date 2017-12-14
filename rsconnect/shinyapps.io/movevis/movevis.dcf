@@ -1,0 +1,10 @@
+name: movevis
+title:
+username:
+account: movevis
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 221556
+bundleId: 1009044
+url: https://movevis.shinyapps.io/movevis/
+when: 1507052287.98483
