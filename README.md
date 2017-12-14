@@ -2,11 +2,11 @@
 
 ## Introduction
 
-moveVis GUI is a browser-based web application for animating movement data. It aims to provide an easy-to-use graphical user interface to all functionalites being present in the [moveVis R package](http://news.movevis.org). The application is still under development and will be embedded in a greater framework of movement analysis web applications that will be closely connected to [movebank.org](http://www.movebank.org). MoveVis GUI is based on the R package [moveVis](http://news.movevis.org) and was written in shiny.
+moveVis GUI is a browser-based web application for animating movement data. It aims to provide an easy-to-use graphical user interface to all functionalities being present in the [moveVis R package](http://news.movevis.org). The application is still under development and will be embedded in a greater framework of movement analysis web applications that will be closely connected to [movebank.org](http://www.movebank.org). MoveVis GUI is based on the R package [moveVis](http://news.movevis.org) and was written in shiny.
 
 ## State of development
 
-The published version is meant to be used only for demonstrational purposes. It works with examplatory data only, enabling its user to test the app's functionalities and behaviour. A module connecting to movebank.org will be implemented within the scope of the framework development. 
+The published version is meant to be used only for demonstrational purposes. It works with exemplary data only, enabling its user to test the app's functionalities and behavior. A module connecting to movebank.org will be implemented within the scope of the framework development. 
 
 ## Installation
 
