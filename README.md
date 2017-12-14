@@ -16,6 +16,8 @@ An operational use of this demo version of moveVis GUI is not recommended and no
 shiny::runGitHub("16eagle/moveVis_GUI")
 ```
 
+The application will be downloaded to your local device and displayed in your default web browser.
+
 ## Ideas
 
 Ideas are welcome! Open an issue to start a discussion: <https://github.com/16eagle/moveVis_GUI/issues> 

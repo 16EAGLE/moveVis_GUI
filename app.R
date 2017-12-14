@@ -326,7 +326,7 @@ server <- function(input, output, session) {
     
     withCallingHandlers({
       shinyjs::html(id = "text", html = "")
-      animate_move(data_ani, out_dir = server.dir, conv_dir = if(input$out_format == "gif"){"convert"}else{"avconv"},
+      animate_move(data_ani, out_dir = server.dir, out_name = "moveVis_ani", conv_dir = if(input$out_format == "gif"){"convert"}else{"avconv"},
                    map_type = input$map_type, paths_mode = input$paths_mode, tail_elements = input$tail_elements, tail_size = input$tail_size,
                    img_title = input$img_title, img_sub = input$img_sub, img_caption = input$img_caption,
                    img_labs = if(input$desc_labs){c(input$img_labs_x, input$img_labs_y)}else{"labs"},
@@ -354,9 +354,9 @@ server <- function(input, output, session) {
   output$download <- renderUI({
     create_ani()
     output$file <- downloadHandler(
-      filename = paste0("moveVis.",input$out_format),
+      filename = paste0("moveVis_ani.",input$out_format),
       content <- function(file) {
-        file.copy(paste0("moveVis.",input$out_format), file)
+        file.copy(paste0("moveVis_ani.",input$out_format), file)
       },
       contentType = NULL #"image/gif"
     )
@@ -376,7 +376,7 @@ server <- function(input, output, session) {
   create_prev <- eventReactive(input$run_prev, {
     #shinyjs::html(id = "wait", html = as.character(tags$img(src = "spinner.gif", id = "spinner")))
     hideElement(id="preview")
-    animate_move(data_ani, out_dir = server.dir, conv_dir = "convert",
+    animate_move(data_ani, out_dir = server.dir, out_name = "moveVis_ani", conv_dir = "convert",
                  map_type = input$map_type, paths_mode = input$paths_mode, tail_elements = input$tail_elements, tail_size = input$tail_size,
                  img_title = input$img_title, img_sub = input$img_sub, img_caption = input$img_caption,
                  img_labs =  if(input$desc_labs){c(input$img_labs_x, input$img_labs_y)}else{"labs"},
@@ -397,7 +397,7 @@ server <- function(input, output, session) {
   
   output$preview <- renderImage({
     create_prev()
-    list(src = "moveVis.gif",  contentType = 'image/gif')
+    list(src = "moveVis_ani.gif",  contentType = 'image/gif')
   }, deleteFile = FALSE)
   
 }
